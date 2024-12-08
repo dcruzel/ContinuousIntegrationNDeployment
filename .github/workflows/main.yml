@@ -18,9 +18,9 @@ jobs:
         with:
           node-version: 21.x # node -v to check version
 
-      - name: Install dependencies
+      - name: Install dependencies # Install 
         run: npm install
-      - name: Build App
+      - name: Build App # Build
         run: npm run build
       - name: Cypress test
         run: npm run test-component
