@@ -15,7 +15,7 @@ jobs:
         run: | # | run multiple commands
           npm install
           npm run build
-          npm run test-compenent
+          npm run test-component
 
       - name: Deploy
         # Only run this step if the branch is main
